@@ -9,10 +9,10 @@ import entorno.Entorno;
 import entorno.Herramientas;
 import entorno.InterfaceJuego;
 
-public class Juego extends InterfaceJuego                   // falta fix de transformaciones tardes (se podrian borrar balas cuando termina juego)
-{                                                           // añadir algun sound mas??
+public class Juego extends InterfaceJuego                   
+{                                                           
 	// El objeto Entorno que controla el tiempo y otros                                   
-	private Entorno entorno;                                                 // juego completo (V1.0): 2197 code lines
+	private Entorno entorno;                                                 
 	
 	private Bird bird;
 	private Tubo tuboSur;
